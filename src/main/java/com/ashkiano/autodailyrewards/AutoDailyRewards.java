@@ -17,6 +17,7 @@ public class AutoDailyRewards extends JavaPlugin implements Listener {
         saveDefaultConfig();
         getServer().getPluginManager().registerEvents(this, this);
         Metrics metrics = new Metrics(this, 21252);
+        this.getLogger().info("Thank you for using the AutoDailyRewards plugin! If you enjoy using this plugin, please consider making a donation to support the development. You can donate at: https://donate.ashkiano.com");
     }
 
     @Override
